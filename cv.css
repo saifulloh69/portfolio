@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 0px 2px 4px rgba(243, 104, 11, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+  color: #333;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.section p {
+  margin-bottom: 5px;
+  color: #777;
+}
+
+.section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section li {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.section .date {
+  font-weight: bold;
+  color: #999;
+}
+
+.section .description {
+  margin-top: 5px;
+  color: #777;
+}
+
+.section ul.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.section ul.skills li {
+  display: inline-block;
+  background-color: #f4f4f4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: #555;
+  transition: background-color 0.3s ease;
+}
+
+.section ul.skills li:hover {
+  background-color: #ff6f69;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .section h2 {
+    font-size: 22px;
+  }
+
+  .section ul.skills li {
+    font-size: 12px;
+    padding: 3px 8px;
+  }
+}
